@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap");
+body {
+  margin: 0;
+  background: #38404B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex, header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header {
+  position: relative;
+  top: 27px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #94ADCF;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+input[type=text] {
+  margin-top: 40px;
+  width: 50vw;
+  height: 59px;
+  background: #38404B;
+  border: none;
+  box-shadow: 1px 1px 2px rgba(66, 75, 88, 0.3), -1px -1px 2px rgba(46, 53, 62, 0.5), inset -3px 3px 6px rgba(46, 53, 62, 0.2), inset 3px -3px 6px rgba(46, 53, 62, 0.2), inset -3px -3px 6px rgba(66, 75, 88, 0.9), inset 3px 3px 8px rgba(46, 53, 62, 0.9);
+  border-radius: 16px;
+  padding-left: 28px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgba(148, 173, 207, 0.7);
+}
+input[type=text]:focus {
+  border: none;
+  outline: none;
+}
+input[type=text]::-moz-placeholder {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgba(148, 173, 207, 0.7);
+}
+input[type=text]:-ms-input-placeholder {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgba(148, 173, 207, 0.7);
+}
+input[type=text]::placeholder {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgba(148, 173, 207, 0.7);
+}
+
+button[type=submit] {
+  background: none;
+  width: 25px;
+  height: 25px;
+  border: none;
+  position: relative;
+  left: -40px;
+  top: 2px;
+}
+
+.todo {
+  background: #38404B;
+  box-shadow: -5px 5px 10px rgba(48, 54, 64, 0.2), 5px -5px 10px rgba(48, 54, 64, 0.2), -5px -5px 10px rgba(64, 74, 86, 0.9), 5px 5px 13px rgba(48, 54, 64, 0.9), inset 1px 1px 2px rgba(64, 74, 86, 0.3), inset -1px -1px 2px rgba(48, 54, 64, 0.5);
+  border-radius: 16px;
+  min-width: 332.04px;
+  height: 41.79px;
+  display: flex;
+  align-items: center;
+  gap: 11.61px;
+  padding-left: 13.44px;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  margin-top: 50px;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+.todo-task {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgba(148, 173, 207, 0.7);
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  background-color: none;
+  border: 2px solid #94ADCF;
+}
+
+.full-circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  background-color: none;
+  border: 2px solid #94ADCF;
+  background: #94ADCF;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgba(148, 173, 207, 0.7);
+}
+
+.completed-tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}/*# sourceMappingURL=style.css.map */
